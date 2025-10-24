@@ -1,0 +1,39 @@
+{
+  "network": {
+    "mainnet": true,
+    "api_url": null
+  },
+  "token": {
+    "name": "SIL",
+    "sz_decimals": 3,
+    "wei_decimals": 18,
+    "full_name": "Silhouette",
+    "quote_ticker": "USDC"
+  },
+  "genesis": {
+    "users": [
+      {
+        "address": "0xYourAddr1...",
+        "amount_wei": "1000000000000000000000"
+      },
+      {
+        "address": "0xYourAddr2...",
+        "amount_wei": "500000000000000000000"
+      }
+    ],
+    "existing_token_wei": []
+  },
+  "trading": {
+    "start_price": "1.00",
+    "order_size": "100",
+    "n_orders": 10,
+    "n_seeded_usdc_levels": 0
+  },
+  "fees": {
+    "deployer_fee_share": "50%"
+  },
+  "deployment": {
+    "max_gas": 5000000,
+    "timeout_seconds": 60
+  }
+}
